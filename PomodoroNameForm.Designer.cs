@@ -37,9 +37,9 @@
             // 
             // txtPomodoroDescription
             // 
-            this.txtPomodoroDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPomodoroDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPomodoroDescription.Location = new System.Drawing.Point(12, 29);
             this.txtPomodoroDescription.Multiline = true;
             this.txtPomodoroDescription.Name = "txtPomodoroDescription";
@@ -57,7 +57,7 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(397, 57);
+            this.btnOK.Location = new System.Drawing.Point(316, 57);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 2;
@@ -68,7 +68,7 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(316, 57);
+            this.btnCancel.Location = new System.Drawing.Point(397, 57);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 3;
@@ -91,7 +91,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PomodoroNameForm";
-            this.Opacity = 0.95;
+            this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pomodoro Name";
             this.ResumeLayout(false);
